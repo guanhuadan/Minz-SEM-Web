@@ -18,7 +18,7 @@ li{
 }
 .cl{clear: both;height: 5px;}
 header{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     height: auto;
 }
 .header-top{
@@ -85,4 +85,7 @@ footer{
     background-color: cyan;
     font-size: 18px;
     font-weight: bolder;
+}
+.footer_main{
+
 }
