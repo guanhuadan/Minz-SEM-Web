@@ -1,0 +1,88 @@
+@charset"utf-8";
+/*
+    项目名称：东莞市名振橡塑制品有限公司竞价页面
+    页面设计：管振佐
+    前端：管振佐
+    电话：15919875536
+*/
+*{margin: 0 auto;padding: 0 auto;}
+html,body{
+    width: 1200px;
+    max-width: 1200px;
+}
+a{
+    text-decoration-line: none;
+}
+li{
+    list-style-type: none;
+}
+.cl{clear: both;height: 5px;}
+header{
+    background-color: aquamarine;
+    height: auto;
+}
+.header-top{
+    max-height: 22px;
+}
+.header-main{
+    height: 120px;
+}
+.logo{
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+}
+.header-text{
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+.header-text p{
+    font-weight: lighter;
+    font-size: 18px;
+}
+.header-tel{
+    float: right;
+    margin-right: 150px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.header-tel p{
+    background-color: red;
+    color: yellow;
+    font-size: 22px;
+    text-align: center;
+}
+nav{
+    background-color: cornflowerblue;
+}
+footer{
+    background-color: cyan;
+}
+.footer-nav{
+    background-color: cyan;
+    height: auto;
+}
+.footer-nav ul{
+    background-color: cyan;
+    position: relative;
+    width: 1200px;
+    height: 36px;
+    line-height: 36px;
+}
+.footer-nav ul li{
+    float: left;
+    margin-left: 10px;
+}
+.footer-nav ul li a{
+    color: darkslategray;
+}
+.footer-nav ul li a:hover{
+    color: blue;
+    background-color: cyan;
+    font-size: 18px;
+    font-weight: bolder;
+}
