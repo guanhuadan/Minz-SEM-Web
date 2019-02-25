@@ -1,0 +1,240 @@
+@charset "utf-8";
+/**
+    项目名称：东莞市名振橡塑制品有限公司
+    项目网址：mingzhen2006.com
+    项目策划人：管振佐
+    项目实施人：管振佐
+    联系电话：15919875536
+    邮箱：516909960@qq.com
+    技术支持：www.guanzhenzuo.com
+    模板购买：www.muban.biz
+ **/
+*{margin: 0;padding: 0;}
+/*公共样式*/
+html,body{font-size: 16px;margin: 0 auto;}
+a{text-decoration: none;}
+li{list-style: none;}
+.fr{float: right;}
+.fl{float: left;}
+a:hover{font-weight: bold;}
+.cl{clear: both;height: 1px;}
+
+/*公共样式*/
+/*页头样式*/
+header{ /*position: absolute;*/}
+.header-top{position: relative;/*background-color: #7b797a;*/margin: 0 auto;}
+.header-top-text{position: relative;width: 1200px;margin: 0 auto ;text-align: left;height: 36px;line-height: 36px;font-size: 18px;}
+.header-content{position: relative;clear: both;width: 1200px;margin: 35px auto 15px;}
+#header-content-logo{float: left;}
+#header-content-logo-text{position: relative;margin-left: 20px;padding-top: 10px;float: left;}
+#header-content-logo-text p,#header-content-logo-tel p{font-size: 24px;font-weight: bold;}
+#header-content-logo-text p>span{font-weight: lighter;font-size: 16px;}
+#header-content-logo-des p{font-size:24px;margin-bottom: 20px;}
+#header-content-logo-des{position: relative;float: left;margin-left: 40px;padding-top: 5px;}
+#header-content-logo-des p>span:first-child{color: red;}
+#header-content-logo-tel{position: relative;float:right;margin-right: 30px;}
+#header-content-logo-tel p>span{color: yellow;background-color: red;text-shadow: 1px 1.5px 1px #000000;}
+
+/*页头样式*/
+/*导航样式*/
+nav{background-color: #097ad8;position: relative;}
+nav ul{width: 1200px;height: 36px;line-height: 36px;margin: 0 auto;}
+nav ul li{display: inline-block;margin-left: 10px;}
+nav ul li:first-child{margin-left: 0px;}
+nav ul li a{color: #fff;}
+nav ul li a:hover{display: block;background-color: yellow;color: black;font-size: 18px;}
+/*导航样式*/
+/*banner*/
+.banner{position: relative;background-color: #7b797a;margin: 0 auto;}
+.banner ul{width: 1200px;height: 450px;margin: 0 auto;}
+/*banner*/
+/*搜索*/
+.inder-search{position: relative;background-color: #097ad8;margin: 0 auto;}
+.index-search-text{width: 1200px;margin: 0 auto;}
+/*搜索*/
+/*首页产品展示*/
+.index-product{position: relative;width: 1200px;margin: 0 auto;}
+.index-product-category{width: 200px;float: left;}
+.index-product-category h3{width: 200px;height: 48px;line-height: 48px;background-color: #097ad8;text-align: center;font-size: 22px;font-weight: bold;color: white;}
+.index-product-category ul {margin-top: 5px;}
+.index-product-category ul h4{width: 200px;height: 36px;line-height: 36px;text-align: center;background-color: #097ad8;margin-bottom: 3px;}
+.index-product-category a{display: block;}
+.index-product-category a:hover{color: red}
+.index-product-category ul li{margin-bottom: 3px;background-color: green;/*padding-left: 20px;*/height: 28px;line-height: 28px;text-align: center;}
+/*.index-product-category ul li a:before{content: "3";}
+.index-product-category ul li{}*/
+.index-product-category ul li:hover{background-color: yellow;color: red;}
+.index-product-content{position: relative;margin-left: 220px;width: 980px; /*background-color: green;*/}
+.index-product-content h3{width: 970px;height: 48px;line-height: 48px;background-color: #097ad6;padding-left: 10px;margin-bottom: 3px;}
+.index-product-content h3>span{float: right;margin-right: 10px;font-size: 14px;color: white;}
+.index-product-content a{width: 200px;margin-top: 3px;}
+.index-product-content dl{margin-left: 10px;float: left;margin-bottom: 3px;width: 200px;}
+.index-product-content dl dd{text-align: center;width: 200px;height: 20px;overflow: hidden;}
+/*首页产品展示*/
+/*合作伙伴*/
+.index-cooperative-partner{position: relative;}
+.index-cooperative-partner h2{height: 48px;line-height: 48px;background-color: #0c70c8;color: white;text-align: center;font-size: 42px;text-shadow: 2px 3px 4px #000;}
+.index-cooperative-partner-content{width: 1200px;margin: 10px auto 10px;}
+.index-cooperative-partner-content ul li{float: left;margin-left: 10px}
+.index-cooperative-partner-content ul li:first-child{margin-left: 0}
+/*合作伙伴*/
+/*首页优势*/
+.index-advantage{position: relative;}
+.index-advantage hr:first-child{text-align: center;width: 50%;margin: 0 auto;height:2px;border-width:0;background-color:gray;}
+.index-advantage hr:last-child{width: 55%;margin: 0 auto;}
+.index-advantage h2{text-align: center;color: #0c70c8;font-size: 32px;text-shadow: 2px 2px 4px #000;}
+.index-advantage h3{text-align: center;color: black;font-size: 36px;text-shadow: 2px 2px 5px #000;}
+.index-advantage h3>span{color: #0c70c8;}
+.index-advantage h6{text-align: center;color: #0c70c8;text-shadow: 2px 2px 6px #000;}
+.index-advantage-content{width: 1200px;margin: 0 auto;}
+.index-advantage-content  h4{text-align: left;color: #0c70c8;height: 40px;padding-left: 5px;text-shadow: 1px 1px 1px #000;}
+/*.index-advantage-content h4>span{
+    width: 40px;height: 40px;
+    background-color: #0c70c8;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: white;
+}*/
+/*首页优势*/
+/*首页品质管控流程*/
+.index-quality-process{position: relative;margin: 0 auto;}
+.index-quality-process h2{background-color: #0c70c8;text-align: center;margin: 0 auto 5px;height: 52px;line-height: 52px;color: white;font-size: 40px;text-shadow: 5px 3px 5px #000;}
+.index-quality-process-content{width: 1200px;margin: 0 auto;}
+.index-quality-process-content dl{margin: 10px auto 10px 10px;float: left;width: 100px;height: 100px;border: 2px solid #7b797a;}
+.index-quality-process-content dl dt{width: 40px;height: 40px;background-color: #097ad8;margin: 15px auto;text-align: center;vertical-align: center;color: white;font-size: 33px;padding-left: 2px;}
+.index-quality-process-content dl dd{text-align: center;margin-top: 5px;}
+.index-quality-process-content dl:last-child{margin: 10px auto 10px 10px;float: left;width: 120px;height: 100px;border: 2px solid #7b797a;}
+/*首页品质管控流程*/
+/*首页客户见证*/
+.index-testimonials{position: relative;margin: 0 auto;}
+.index-testimonials h2{height: 48px;line-height: 48px;background-color: #0c70c8;color: white;text-align: center;font-size: 42px;text-shadow: 2px 3px 4px #000;}
+.index-testimonials-content{width: 1200px;margin: 0 auto 20px;position: relative;}
+.index-testimonials-content dl{float: left;margin-top: 10px;margin-left: 5px;width: 580px;height: 200px;word-wrap: break-word;overflow: hidden;}
+.index-testimonials-content dl dt{float: left;width: 180px;height: 200px;}
+.index-testimonials-content dl dd{float: left;width:380px;}
+.index-testimonials-content dl dd h5 {margin-left: 15px;font-size: 18px;word-wrap: break-word;overflow: hidden;}
+.index-testimonials-content dl dd p{margin-left: 15px;padding-top: 10px;word-wrap: break-word;overflow: hidden;}
+/*首页客户见证*/
+/*首页立即咨询*/
+.index-consult-banner{position: relative;width: 1200px;height:120px;margin: 10px auto 10px;background: linear-gradient(to top right, #0c70c8 0%,#00bfff 10%,#097ad8 20%,#4169e1 50%,#00bfff 85%, #097ad6 100%);}
+.index-consult-banner p:first-child a{position: relative;float: left;margin-top:40px;margin-left: 140px;height: 40px;line-height:40px;text-align: center;font-weight: bold;font-size: 36px;color: yellow;text-shadow: 5px 6px 10px #000000;}
+.index-consult-banner ul{float: left;margin-left: 40px;color: white;text-shadow: 3px 1px 10px #000000;margin-top: 30px;font-weight: bolder;font-size: 24px;}
+.index-consult-banner ul li:first-child{text-decoration-line: underline;}
+.index-consult-banner p:last-child{position: relative;background-color: #ffff00;margin-left: 60px;margin-right:20px;padding-left: 5px;padding-right: 5px;color: red;font-weight: bolder;float: left;margin-top: 50px;text-shadow: 1px 1px 5px #000000;}
+.index-consult-banner p:last-child>span{font-size: 22px;font-weight: bold;}
+/*首页立即咨询*/
+/*首页关于名振橡塑*/
+.index-about{position: relative;margin: 5px auto 10px;width: 1200px;padding: 5px auto 10px;}
+#index-about-img{position: relative;margin-left: 20px;float: left;}
+#index-about-content{position: relative;margin-left: 30px;float: left;width: 800px; }
+#index-about-content h2{text-shadow: 1px 1px 1px #fff;}
+#index-about-content p{padding-top: 10px;white-space:norma;word-wrap: break-word;}
+/*首页关于名振橡塑*/
+/*首页新闻展示*/
+.index-news{position: relative;margin: 10px auto 5px;width: 1200px;height: 200px;}
+#index-new-company,#index-new-technology,#index-news-faq{position: relative;margin-left: 10px;width: 380px;float: left;word-wrap: break-word;}
+#index-new-company h4,#index-new-technology h4,#index-news-faq h4{font-size: 20px;width: 200px;height: 30px;line-height: 30px;padding-left: 10px;background-color: #0c70c8;margin-bottom: 5px;text-decoration-line: underline;}
+#index-new-company dl dt,#index-new-technology dl dt,#index-news-faq dl dt{float: left;width: 120px;height: 100px;}
+#index-new-company  dl dd,#index-new-technology dl dd,#index-news-faq dl dd{margin-left: 15px;overflow:hidden;}
+#index-new-company dd h6,#index-new-technology dd h6,#index-news-faq dd h6{margin-left: 10px;overflow:hidden;}
+#index-new-company dd p,#index-new-technology dd p,#index-news-faq dd p{margin-left: 10px;overflow:hidden;}
+#index-new-company ul,#index-new-technology ul,#index-news-faq ul{clear: both;margin-top: 5px;}
+#index-new-company ul li>span,#index-new-technology ul li>span,#index-news-faq ul li>span{margin-left: 15px;}
+#index-new-company ul li a,#index-new-technology ul li a,#index-news-faq ul li a{color: black;overflow:hidden;}
+/*首页新闻展示*/
+/*友情链接*/
+.index-link{width: 1200px;margin: 10px auto 3px;}
+.index-link h5{font-size: 22px;font-weight: bold;background-color: #0c70c8;color: white;text-align: center;width: 120px;height: 30px;/*border-radius: 25%;
+    -moz-border-radius: 25%;
+    -webkit-border-radius: 25%;*/}
+.index-link ul li{margin-left: 5px;float: left;display: inline-block;margin-bottom: 10px;margin-top: 5px;}
+.index-link ul li:first-child{margin-left: 0;}
+.index-link a{color: black;}
+/*友情链接*/
+/*页脚*/
+footer{clear: both;position: relative;background-color: #097ad8;margin: 10px auto;}
+.footer-nav ul{width: 1200px;background-color: #097ad8;margin: 0 auto;}
+.footer-nav ul li{display: inline-block;height: 26px;line-height: 26px;}
+.footer-nav ul li a{display: block;color: white;height: 26px;line-height: 26px;}
+.footer-content{ /*width: 1200px;*/position: relative;margin: 5px auto;background-color: #097ad8;}
+.footer-content-content{width: 1200px;height: 200px;margin: 10px auto;background-color: #097ad8;}
+.footer-content-logo{position: relative;width: 200px;height: 200px;float: left;}
+.footer-content-logo img{float: left;}
+.footer-content-text{position: relative;margin-left: 210px;height: 200px;width: 500px;}
+.footer-content-text ol li{margin-top: 5px;}
+.footer-content-text p{padding-left: 10px;}
+.footer-content-erweima{position: relative;margin-left:800px;margin-top:-200px;width: 800px;height: 200px;float: left}
+.footer-content-erweima dl{float: left;margin-left: 10px;}
+.footer-content-erweima dl:first-child{margin-left: 0;}
+footer p:last-child{width: 1200px;margin: 0 auto 1px;}
+/*页脚*/
+/*内页公共样式*/
+.info-banner,.info-category{position: relative;width: 1200px;margin: 2px auto 5px;}
+.info-category li{float: left;margin-left: 10px;margin-top: 10px;width: 180px;height: 30px;line-height: 30px;text-shadow: 1px 1px 1px #000;font-weight: bolder;background-color: #0c70c8;text-align: center;}
+.info-category a{color: white;}
+.info-category a:hover{color: black;font-size: 20px;}
+.info-content{position: relative;width: 1200px;margin: 3px auto 5px;}
+#info-content-position{position: relative;width: 1200px;padding-left: 10px;margin-top: 5px;margin-bottom: 5px;}
+.info-content-content{position: relative;width: 1200px;margin-top: 3px;margin-bottom: 5px;}
+.info-title,#info-info{text-align: center;margin-top: 5px;margin-bottom: 5px;}
+.info-info-content{margin-top: 20px;margin-bottom: 20px;}
+#info-info-previous{float: left;margin-left: 20px;}
+#info-info-next{float: right;margin-right: 20px;}
+
+/*内页公共样式*/
+/*新闻内容页样式*/
+/*新闻内容页样式*/
+/*默认产品内容页样式*/
+/*默认产品内容页样式*/
+/*新闻列表页样式*/
+.info-list-content{position: relative;width: 1200px;margin-top: 20px;margin-bottom: 20px;}
+.info-list-content dl{clear: both;margin-top: 10px;margin-bottom: 10px;}
+.info-list-content dt{float: left;width: 200px;}
+.info-list-content dd{float: left;margin-left: 20px;width: 980px;word-wrap: break-word;}
+.info-list-content dd p:first-child{margin-top: 10px;}
+#info-list-info-title{}
+#info-list-info-info,#info-list-info-desc{margin-top: 10px;}
+#info-list-info-info span{margin-left: 10px;}
+#info-list-info-desc span{clear: both;margin-left: 30px;}
+.info-list-pagination{text-align: center;margin-top: 10px;margin-bottom: 10px;}
+.info-list-pagination a{color: black;margin-left: 5px;}
+/*新闻列表页样式*/
+/*默认产品列表页样式*/
+/*产品列表页产品展示*/
+.list-product-content-info{width: 980px;float: left;}
+.list-product-content-info dl{float: left;width: 230px;margin-left: 15px;margin-top: 10px;overflow: hidden;}
+.list-product-content-info dl dd{word-wrap: break-word;overflow: hidden;height: 20px;}
+
+
+/*产品列表页产品展示*/
+
+/*产品列表页分类样式*/
+.list-product-content{position: relative;width: 1200px;margin: 0 auto;}
+.list-product-content-info{float: left;width: 980px;}
+.list-product-category{float: left;margin-left: 10px;width: 210px;}
+.list-product-content h2{height: 33px;text-shadow: 3px 2px 3px #000000;line-height: 33px;text-align: center;background-color: #0c70c8;color: white;}
+.list-product-category ol{margin-top: 40px;}
+.list-product-category ul li{height: 30px;line-height: 30px;margin-bottom: 10px;background-color: #097ad6}
+.list-product-category ul li:first-child{margin-top: 15px;}
+.list-product-category ul li a{color: black;display: block;margin-top: 3px;padding-left: 25px;margin-bottom: 15px}
+.list-product-category ul li a:hover{color: white;background-color: #0c70c8;font-weight: bold;font-size: 22px;}
+.list-product-category ol li{margin-bottom: 15px;}
+.list-product-category ol li:first-child{margin-top: 10px;}
+/*产品列表页分类样式*/
+/*默认产品列表页样式*/
+/*单页样式*/
+/*单页样式*/
+/*电子烟专题页样式*/
+
+/*电子烟专题页样式*/
+@media  only  screen and (max-width: 600px) {
+    html,body{
+        width: 100%;
+    }
+    .header-top,.header-top-text,#header-content-logo-des,#header-content-logo-tel{display: none;}
+    .header-content{width: 100%}
+    nav ul{display: inline-block;width: 100%;}
+    .banner {width: 100%}
+    .banner img{width: 100%;height: 100%}
+}

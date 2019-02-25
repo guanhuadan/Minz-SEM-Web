@@ -1,0 +1,33 @@
+@charset "utf-8";
+/**
+    项目名称：东莞市名振橡塑制品有限公司
+    项目网址：mingzhen2006.com
+    项目策划人：管振佐
+    项目实施人：管振佐
+    联系电话：15919875536
+    邮箱：516909960@qq.com
+    技术支持：www.guanzhenzuo.com
+    模板购买：www.muban.biz
+ **/
+*{margin: 0;padding: 0;}
+/*公共样式*/
+html,body{font-size: 16px;margin: 0 auto;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.fr{float: right;}
+.fl{float: left;}
+a:hover{font-weight: bold;}
+.cl{clear: both;height: 1px;}
+
+/*公共样式*/
+header{}
+/*公共样式*/
+/*页脚*/
+footer{position: relative;margin: 0 auto;background-color: #0c70c8;}
+.footer-nav{}
+.footer-nav ul{width: 1200px;height: 36px;line-height: 36px;margin: 0 auto;}
+.footer-nav ul li{display: inline-block;float: left;margin-left: 5px;height: 36px;line-height: 36px;}
+.footer-nav li a{display: block;font-size: 20px;color: white;}
+.footer-nav ul li a:hover{color: black;font-weight: bolder;background-color: yellow;}
+.footer-nav
+/*页脚*/
